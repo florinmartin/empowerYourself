@@ -57,6 +57,6 @@ gulp.task('sass:watch', function () {
   gulp.watch('./app/*/*.js', notifyLiveReload);
 });
 
-gulp.task('default', ['sass', 'express', 'livereload', 'sass:watch'], function() { });
+gulp.task('default', ['sass', 'compress', 'express', 'livereload', 'sass:watch'], function() { });
 
 module.exports = gulp;
