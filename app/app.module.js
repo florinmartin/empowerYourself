@@ -1,1 +1,1 @@
-alert("dada");
+angular.module('app', ['angular-animate', 'angular-route']);
