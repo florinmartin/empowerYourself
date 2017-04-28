@@ -1,0 +1,109 @@
+/**
+ * BEM
+ */
+
+/// Block Element
+/// @access public
+/// @param {String} $element - Element's name
+@mixin element($element) {
+  &__#{$element} {
+    @content;
+  }
+}
+/// Block Modifier
+/// @access public
+/// @param {String} $modifier - Modifier's name
+@mixin modifier($modifier) {
+  &--#{$modifier} {
+    @content;
+  }
+}
+
+// Set a rem font size with pixel fallback
+/// usage:  @include font-size(14px)
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+
+// Breakpoints
+// usage:  @include bp-small { }
+@mixin bp-large {
+  @media only screen and (max-width: 60em) {
+    @content;
+  }
+}
+@mixin bp-medium {
+  @media only screen and (max-width: 40em) {
+    @content;
+  }
+}
+@mixin bp-small {
+  @media only screen and (max-width: 30em) {
+    @content;
+  }
+}
+
+// Clearfix
+// usage:  @extend %clearfix;
+%clearfix {
+  *zoom: 1;
+  &:before, &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+/**
+ * Ellipsis with cross-browser support
+ * If the browser supports -webkit-line-clamp, the browser will render the specified count of lines using line clamp.
+ * Otherwise the browser will use a fading out gradient at the end of the last line.
+ * $font-size: the text font size
+ * $line-height: the line height of the text
+ * $lines-to-show: the number of lines for truncation
+ * $reserve-space (optionally): if the space should be reserved (use height instead of max-height)
+ * $gradient-color (optionally): the background colour in hex
+ * $gradient-width (optionally): the width of the fade-out gradient (default 30px)
+**/
+@mixin multiline-ellipsis-with-fallback($font-size, $line-height, $lines-to-show, $reserve-space: true, $gradient-color: #FFFFFF, $gradient-width: 30px) {
+  position: relative;
+  overflow: hidden; //do not show text that is outside of the container
+  @if $reserve-space {
+    height: $lines-to-show * $font-size * $line-height; //height is $lines-to-show * $font-size * $line-height
+    max-height: none; //reset the max-height value
+  } @else {
+    height: auto; //reset the height value
+    max-height: $lines-to-show * $font-size * $line-height; //maximum height is $lines-to-show * $font-size * $line-height
+  }
+  &:after {
+    //three dots for non -webkit-line-clamp support
+    content: "";
+    text-align: right;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: $gradient-width;
+    height: $font-size * $line-height; //height of the gradient is line-height * font-size
+    background: linear-gradient(
+                    to right,
+                    rgba($gradient-color, 0),
+                    rgba($gradient-color, 1) 50%
+    );
+  }
+  @supports (-webkit-line-clamp: $lines-to-show) {
+    display: -webkit-box;
+    -webkit-line-clamp: $lines-to-show;
+    -webkit-box-orient: vertical;
+    &:after {
+      display: none; //hide the gradient
+    }
+  }
+}
+

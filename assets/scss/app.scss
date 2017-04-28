@@ -1,0 +1,24 @@
+////// Import from external providers
+
+	// Foundation - 5.5.3
+	@import "../lib/foundation/scss/functions";
+	@import "../lib/foundation/scss/normalize";
+	@import "../lib/foundation/scss/components/global";
+	@import "../lib/foundation/scss/components/grid";
+	@import "../lib/foundation/scss/components/visibility";
+	@import "../lib/foundation/scss/components/block-grid";
+	@import "../lib/foundation/scss/components/type";
+	@import "../lib/foundation/scss/components/buttons";
+	@import "../lib/foundation/scss/components/forms"; 
+	@import "../lib/foundation/scss/components/breadcrumbs"; 
+	@import "../lib/foundation/scss/components/tooltips"; 
+	@import "../lib/foundation/scss/components/dropdown"; 
+
+
+////// Project specific
+
+@import "mixins";
+@import "globals";
+
+@import "header";
+@import "footer";

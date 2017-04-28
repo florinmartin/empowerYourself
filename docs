@@ -1,0 +1,17 @@
+// --------------
+//    NODE
+// --------------
+
+To update all the node dependencies
+	$ npm install -g npm-check-updates
+	$ npm-check-updates -u
+	$ npm install 
+
+
+// --------------
+//    Angular
+// --------------
+
+// Styleguide
+
+https://github.com/johnpapa/angular-styleguide/blob/master/a1/README.md
