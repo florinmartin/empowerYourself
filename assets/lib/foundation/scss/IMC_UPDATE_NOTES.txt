@@ -1,0 +1,13 @@
+After adding node-sass (https://jira.im-c.de/browse/AI-115) it occurred the loading of "global.scss" multiple time, issue described here:
+
+http://foundation.zurb.com/forum/posts/19189-globals-are-repeated-multiple-times
+https://github.com/zurb/foundation-sites/issues/5863
+
+The fix was to change in _functions.scss
+line 14:
+
+$modules: append($modules, $name);
+
+to 
+
+$modules: append($modules, $name) !global;
