@@ -43,31 +43,38 @@ gulp.task('sass', function () {
 gulp.task('compress', function() {
     return gulp.src('app/**/*.js')
         .pipe(concat('app.min.js'))
-        .pipe(gulp.dest('assets/js'))
-        .pipe(uglify())
         .pipe(gulp.dest('assets/js'));
 });
 gulp.task('compressAngularJS', function() {
     return gulp.src([
             'node_modules/angular/angular.min.js',
             'node_modules/angular-route/angular-route.min.js',
+            'node_modules/angular-resource/angular-resource.min.js',
+            'node_modules/angular-sanitize/angular-sanitize.min.js',
             'node_modules/angular-animate/angular-animate.min.js'
         ])
         .pipe(concat('angular.min.js'))
-        .pipe(gulp.dest('assets/js'))
-        .pipe(uglify())
         .pipe(gulp.dest('assets/js'));
 });
 gulp.task('compressUtilityJS', function() {
     return gulp.src([
             'node_modules/jquery/dist/jquery.min.js',
+            'assets/lib/foundation/vendor/modernizr.js',
             'assets/lib/foundation/foundation.min.js',
             'assets/lib/select2/select2.min.js'
         ])
         .pipe(concat('utility.min.js'))
-        .pipe(gulp.dest('assets/js'))
-        .pipe(uglify())
         .pipe(gulp.dest('assets/js'));
+});
+gulp.task('compressUtilityCSS', function() {
+    return gulp.src([
+            'assets/lib/font-awesome/css/font-awesome.min.css',
+            'assets/lib/select2/select2.min.css'
+        ])
+        .pipe(concat('utility.min.css'))
+        .pipe(gulp.dest('assets/css'))
+        .pipe(cleanCSS({compatibility: 'ie8'}))
+        .pipe(gulp.dest('assets/css'));
 });
 
 
@@ -78,7 +85,7 @@ gulp.task('sass:watch', function () {
     gulp.watch('./app/**/*.js', notifyLiveReload);
 });
 
-gulp.task('default', ['sass', 'compress', 'compressAngularJS', 'compressUtilityJS', 'express', 'livereload', 'sass:watch'], function () {
+gulp.task('default', ['sass', 'compress', 'compressAngularJS', 'compressUtilityJS', 'compressUtilityCSS', 'express', 'livereload', 'sass:watch'], function () {
 });
 
 module.exports = gulp;

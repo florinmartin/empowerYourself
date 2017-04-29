@@ -1,0 +1,41 @@
+<header>
+    <div class="header-wraper row">
+        <div class="logo"></div>
+        <ul class="navigation">
+            <li class="navigation__entry"
+                ng-repeat="nav in navigation"
+                ng-class="{'is-active': nav.active, 'has-dropdown': nav.dropdown}"
+                toggle-dropdown>
+                <a href="{{nav.link}}">{{nav.title}}</a>
+                <ul class="navigation__entry--dropdown" ng-if="nav.dropdown">
+                    <li class="navigation__entry--dropdown__entry"
+                        ng-repeat="subnav in nav.dropdown"
+                        ng-class="{'is-active': subnav.active}">
+                        <a href="{{subnav.link}}">{{subnav.title}}</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="navigation__entry for-user has-dropdown" toggle-dropdown>
+                <a href="">{{global.user.navatar}}</a>
+                <ul class="navigation__entry--dropdown">
+                    <li class="navigation__entry--dropdown__user-details">
+                        <div class="avatar">{{global.user.navatar}}</div>
+                        <div class="details">
+                            <div class="name">{{global.user.first_name}} {{global.user.last_name}}</div>
+                            <div class="email">{{global.user.email}}</div>
+                        </div>
+                    </li>
+                    <li class="navigation__entry--dropdown__entry">Competences</li>
+                    <li class="navigation__entry--dropdown__entry">Skills</li>
+                    <li class="navigation__entry--dropdown__entry">Certificates</li>
+                    <li class="navigation__entry--dropdown__user-actions">
+                        <a href=""><i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-cogs" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-sign-out" aria-hidden="true"></i></a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+    </div>
+</header>
