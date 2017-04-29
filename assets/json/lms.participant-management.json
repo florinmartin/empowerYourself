@@ -1,0 +1,43 @@
+{
+  "courses": {
+    "1": [
+      {
+        "uid": 1,
+        "date": "2017-02-10T15:33:36.493Z",
+        "status": "started"
+      },
+      {
+        "uid": 2,
+        "date": "2017-02-10T15:33:36.493Z",
+        "status": "started"
+      },
+      {
+        "uid": 3,
+        "date": "2017-02-10T15:33:36.493Z",
+        "status": "started"
+      },
+      {
+        "uid": 4,
+        "date": "2017-02-10T15:33:36.493Z",
+        "status": "started"
+      }
+    ],
+    "2": [
+      {
+        "uid": 1,
+        "date": "2017-02-10T15:33:36.493Z",
+        "status": "started"
+      },
+      {
+        "uid": 2,
+        "date": "2017-02-10T15:33:36.493Z",
+        "status": "started"
+      },
+      {
+        "uid": 3,
+        "date": "2017-02-10T15:33:36.493Z",
+        "status": "started"
+      }
+    ]
+  }
+}

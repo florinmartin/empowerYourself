@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Home",
+    "link": "/index.html"
+  },
+  {
+    "title": "Learn",
+    "link": "/index.html",
+    "dropdown": [
+      {
+        "title": "Catalog",
+        "link": "/learn/catalog"
+      },
+      {
+        "title": "Learnings",
+        "link": "/learn/my-learnings"
+      },
+      {
+        "title": "Progress",
+        "link": "/learn/my-learnings"
+      }
+    ]
+  },
+  {
+    "title": "Manage",
+    "link": "/index.html",
+    "dropdown": [
+      {
+        "title": "Learnin management",
+        "link": "/learn/catalog"
+      },
+      {
+        "title": "Reports",
+        "link": "/learn/my-learnings"
+      }
+    ]
+  }
+]
