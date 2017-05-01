@@ -1,0 +1,24 @@
+{
+  "catalogs": [
+    {
+      "id": 1,
+      "name": "Design",
+      "description": "Learn the #1 most important building blocks of all art"
+    },
+    {
+      "id": 2,
+      "name": "Product management",
+      "description": "Why does the astronaut view?"
+    },
+    {
+      "id": 3,
+      "name": "Development",
+      "description": "Particle of a delighted modification, feed the pressure!"
+    },
+    {
+      "id": 4,
+      "name": "Marketing",
+      "description": "Collision course at the solar system that is when final collectives tremble. "
+    }
+  ]
+}

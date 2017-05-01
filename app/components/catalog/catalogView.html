@@ -1,0 +1,90 @@
+<section class="top-breadcrumbs">
+    <div class="row">
+        <ul class="breadcrumb">
+            <li><a href="#">Learn</a></li>
+            <li class="current"><a href="#">Catalog</a></li>
+        </ul>
+    </div>
+</section>
+<section class="view-header is-hero">
+    <div class="background"></div>
+    <div class="row">
+        <h1>Your source of knowledge</h1>
+        <div class="search">
+            <input type="text" placeholder="Search" onkeypress="scrollToItem('tile-list',50)" autofocus>
+            <a href="" class="fa fa-search"></a>
+        </div>
+        <div class="search-counter">
+            200 entries from
+            <span toggle-dropdown ng-init="catalogSelected = 'All catalogs'">
+                <b ng-bind-html="catalogSelected">All catalogs</b>
+                <ul class="catalog-select" ng-init="limit = 2">
+                    <li ng-click="catalogSelect('All catalogs')">All catalogs</li>
+                    <li ng-repeat="catalog in catalogList | limitTo: limit as results" ng-click="catalogSelect(catalog.name)">{{catalog.name}}</li>
+                    <label class="search-label" ng-hide="results.length === catalogList.length" ng-click="limit = limit +5">more ...</label>
+                </ul>
+            </span>
+        </div>
+    </div>
+</section>
+<section id="tile-list">
+    <div class="row">
+        <div class="tile-header">
+            <div class="tile-header-counter">
+                <span>{{filteredCourses.length}} </span> courses
+            </div>
+            <div class="tile-header-actions">
+                <div class="search-small">
+                    <input type='text' class='search-small__field' placeholder='Search' ng-model='searchText'>
+                    <a class='search-small__button' onclick='$(this).parent().toggleClass("search-active");$(this).siblings("input").focus();'>
+                        <i class='fa fa-search' aria-hidden='true'></i>
+                    </a>
+                </div>
+                <a class="btn" ng-click="tileView = !tileView">
+                    <i class="fa fa-th" aria-hidden="true" ng-if="!tileView"></i>
+                    <i class="fa fa-th-list" aria-hidden="true" ng-if="tileView"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="tile animate-filter"
+             ng-class="{'tile-type-1': !tileView, 'tile-type-2': tileView}"
+             ng-repeat="course in courseList | filter: searchText as filteredCourses"
+             ng-animate="{enter: 'animate-enter', leave: 'animate-leave'}" >
+            <div ng-class="{'tile-type-1-img': !tileView, 'tile-type-2-img': tileView}"
+                 style="background-image:  url('/assets/img/lms.courses/{{course.moocImage}}'), url('/assets/img/lms.courses/default.png')"></div>
+            <div ng-class="{'tile-type-1-content': !tileView, 'tile-type-2-content': tileView}">
+                <div class="progress" vprogress-success="{{course.progress}}"></div>
+                <div class="title">{{course.name}}</div>
+                <div class="status">
+                    <span ng-bind-html="courseDate2Meta(course.startDateUTC, course.endDateUTC)" ></span>
+                    <span class='icon-reminder' ng-if="!reminder" toggle-class="remind" data-tooltip aria-haspopup="true" class="has-tip" title="Add reminder to calendar"></span>
+                </div>
+                <div class="subtitle" ng-if="course.description">{{course.description | html2text}}</div>
+                <div class="meta">
+                    <div class="metadata">
+                        <i class="meta-icon fa fa-graduation-cap" aria-hidden="true"></i>
+                        {{course.learningForm}}
+                    </div>
+                </div>
+            </div>
+            <div ng-class="{'tile-type-1-actions': !tileView, 'tile-type-2-actions': tileView}">
+                <a class="btn" toggle-more-options><i class="fa fa-ellipsis-h"></i></a>
+                <ul class="btn-set-act">
+                    <li onclick="msgOpen()" style="color:#df6500;">Open </li>
+                    <li onclick="msgConclude('Principles of Designing for Humans')">Conclude </li>
+                    <li onclick="msgCancel()">Cancel cournse</li>
+                </ul>
+            </div>
+            <div ng-class="{'tile-type-1-more': !tileView, 'tile-type-2-more': tileView}">
+                <div class="section-title">Details</div>
+                <p style="font-size: 14px;">
+                    <span style="font-weight: 600; color: #666">Availability: </span> Available now<br>
+                    <span style="font-weight: 600; color: #666;">Available after start: </span>12 Months
+                </p>
+            </div>
+        </div>
+        <div class="tile-nothing">There are no more courses</div>
+    </div>
+</section>

@@ -1,0 +1,33 @@
+.search {
+  &-small {
+    display: flex;
+    border-bottom: 1px solid transparent;
+    &__field {
+      border: 0 solid transparent;
+      background: $gray-0;
+      position: relative;
+      padding-left:3px !important;
+      width:0;
+      overflow: hidden;
+      transition: all 400ms ease-in-out;
+      opacity:0;
+      &:focus {
+        outline:none;
+      }
+    }
+    &__button {
+      margin-left:5px;
+    }
+    &.search-active {
+      border-bottom: 1px solid rgba(0,0,0,.1);
+      .search-small__field {
+        width:180px;
+        opacity:1;
+        //display: block;
+      }
+      .search-small__button {
+        margin-left:5px;
+      }
+    }
+  }
+}

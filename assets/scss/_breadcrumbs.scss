@@ -1,0 +1,23 @@
+.top-breadcrumbs {
+  background: white;
+  .breadcrumb {
+    @include crumb-container;
+    padding-left:0;
+    border: none;
+    background: transparent;
+    li {
+      @include crumbs;
+      a{
+        color: $blue;
+        text-decoration: none;
+      }
+    }
+  }
+}
+.catalog .top-breadcrumbs {
+  background-color:transparent;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+}
