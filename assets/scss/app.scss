@@ -17,10 +17,15 @@
 
 ////// Project specific
 
+@import "mixins";
 @import "colors";
 @import "bemify";
-@import "mixins";
 @import "globals";
 
 @import "header";
 @import "footer";
+@import "form";
+@import "views";
+@import "tiles";
+@import "catalog";
+@import "breadcrumbs";

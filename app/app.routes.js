@@ -4,10 +4,13 @@ empowerYourself
     }])
     .config(function ($routeProvider) {
         $routeProvider
-            .when("/learn/my-learnings", {
-                templateUrl: "html/my-learnings.html"
+            .when("/learn/catalog", {
+                templateUrl: "app/components/catalog/catalogView.html",
+                scope: true,
+                controller: "catalog"
             })
             .otherwise({
-                templateUrl: "index.html"
+                templateUrl: "app/components/core/error/404.html",
+                controller: "error"
             });
     });

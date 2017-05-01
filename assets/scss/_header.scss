@@ -5,6 +5,7 @@ header {
   border-bottom: 5px solid $blue;
   box-shadow: 0 2px 3px 1px rgba(0, 0, 0, .01);
   z-index: 9;
+  top: 0;
 
   &.is-scrolled {
     background: rgba(255, 255, 255, .97);

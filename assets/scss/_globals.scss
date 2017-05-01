@@ -1,19 +1,12 @@
-html {
-
-}
 
 body {
 	background: #f4f5f6;
-	font-family: 'Clear Sans', sans-serif;
+	font-family: 'Clear Sans','Open Sans', Arial, sans-serif;
 	font-size: 16px;
+}
+html,body,h1,h2,h3 {
+	font-family: 'Clear Sans','Open Sans', Arial, sans-serif;
 }
 a {color: inherit;
   &:hover {color: inherit;}
-}
-main-container {
-	position: absolute;
-	top: 80px;
-	width: 100%;
-	transition: all 600ms ease-in-out;
-	background: transparent;
 }

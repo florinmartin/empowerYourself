@@ -5,33 +5,33 @@
   },
   {
     "title": "Learn",
-    "link": "/index.html",
+    "link": "#",
     "dropdown": [
       {
         "title": "Catalog",
-        "link": "/learn/catalog"
+        "link": "#/learn/catalog"
       },
       {
         "title": "Learnings",
-        "link": "/learn/my-learnings"
+        "link": "#/learn/my-learnings"
       },
       {
         "title": "Progress",
-        "link": "/learn/my-learnings"
+        "link": "#/learn/my-learnings"
       }
     ]
   },
   {
     "title": "Manage",
-    "link": "/index.html",
+    "link": "#/index.html",
     "dropdown": [
       {
         "title": "Learnin management",
-        "link": "/learn/catalog"
+        "link": "#/learn/catalog"
       },
       {
         "title": "Reports",
-        "link": "/learn/my-learnings"
+        "link": "#/learn/my-learnings"
       }
     ]
   }
