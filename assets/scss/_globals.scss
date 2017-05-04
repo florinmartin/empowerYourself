@@ -7,6 +7,16 @@ body {
 html,body,h1,h2,h3 {
 	font-family: 'Clear Sans','Open Sans', Arial, sans-serif;
 }
+// html, body {
+//     height: 100%;
+//     overflow: hidden;
+// }
+
+// body {
+//     position: relative;
+//     overflow: auto;
+// }
+
 a {color: inherit;
   &:hover {color: inherit;}
 }

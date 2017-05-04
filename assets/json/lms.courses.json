@@ -1735,6 +1735,1742 @@
         }
       ],
       "downloadAllContent": false
+    },
+    {
+      "id": 1,
+      "modified": "string",
+      "modifiedUTC": "2017-04-19T15:33:36.492Z",
+      "name": "The Ultimate Drawing Course - Beginner to Advanced",
+      "description": "Learn the #1 most important building block of all art",
+      "metaTags": [
+        {
+          "name": "string",
+          "content": "string",
+          "rawContent": "string",
+          "contentUTC": "2017-04-19T15:33:36.492Z",
+          "id": "string",
+          "metaDataCType": "UNKNOWN",
+          "multiLanguage": false,
+          "editableSetting": "EDIT_ALLOWED",
+          "multiLanguageContent": [
+            {
+              "language": "string",
+              "content": "string",
+              "rawContent": "string"
+            }
+          ],
+          "visibilityType": "NOT_VISIBLE",
+          "visibilityTypeBeforeRegistration": "NOT_VISIBLE",
+          "visibilityTypeAfterRegistration": "NOT_VISIBLE"
+        }
+      ],
+      "infoAttribute": [
+        {
+          "name": "string",
+          "content": "string",
+          "id": "string"
+        }
+      ],
+      "contentLanguages": {
+        "adminLanguage": "string",
+        "basicLanguage": "string",
+        "standardLanguage": "string",
+        "contentLanguage": [
+          {
+            "code": "string",
+            "name": "string",
+            "status": 0
+          }
+        ]
+      },
+      "link": {
+        "rel": "string",
+        "href": "string"
+      },
+      "experienceGains": [
+        {
+          "id": 0,
+          "name": "string",
+          "image": "string",
+          "possibleExperienceGain": 0
+        }
+      ],
+      "language": "string",
+      "startDateUTC": "2017-02-10T15:33:36.493Z",
+      "startDate": "string",
+      "endDate": "string",
+      "endDateUTC": "2017-09-30T15:33:36.493Z",
+      "bookable": false,
+      "status": "NULL",
+      "certificateAvailable": false,
+      "certificateOfAttendanceAvailable": false,
+      "certificateAccess": "USER_PASSES_OR_FAILS",
+      "freePlaces": 0,
+      "freePlacesVisible": false,
+      "cancellable": false,
+      "cancellationType": 0,
+      "planningStatus": "RELEASED",
+      "registrationPrerequisites": [
+        {
+          "name": "string",
+          "id": "string",
+          "parentSetName": "string",
+          "mandatory": false,
+          "fulfilled": false,
+          "prerequisiteType": "COURSE",
+          "position": 0
+        }
+      ],
+      "dateDependent": false,
+      "registrationType": "NO_ORDERTYPE",
+      "provider": "string",
+      "providerUrlImage": "string",
+      "progress": 73,
+      "templateId": 0,
+      "moocImage": "1.jpg",
+      "location": "Berlin, Germany",
+      "finishable": true,
+      "administrator": {
+        "id": 0,
+        "firstname": "string",
+        "lastname": "string",
+        "title": "string",
+        "gender": "string",
+        "language": "string",
+        "mail": "string",
+        "client": 0,
+        "designName": "string",
+        "link": {
+          "rel": "string",
+          "href": "string"
+        },
+        "assignedGroups": [
+          {
+            "id": 0,
+            "name": "string",
+            "type": "SYSTEM_GROUP",
+            "status": "ACTIVE",
+            "functions": [
+              "ADMINISTRATOR_GROUP"
+            ],
+            "abbreviation": "string",
+            "commentOnChange": "string",
+            "automaticUpdateMembers": false,
+            "managers": [
+              {}
+            ],
+            "recertification": false,
+            "provider": 0,
+            "clients": [
+              0
+            ],
+            "groups": [
+              0
+            ]
+          }
+        ],
+        "ojtMentor": false,
+        "ojtTrainee": false,
+        "complianceManager": false,
+        "company": "string",
+        "picture": "string",
+        "tutorRole": "string",
+        "remoteApiClientId": "string",
+        "publicServerUrl": "string",
+        "fullName": "string",
+        "supervisor": false,
+        "registrationDelegate": false,
+        "portfolioStatus": 0,
+        "userDefinedId": "string",
+        "timeZone": {
+          "id": 0,
+          "nameIdentifier": "string",
+          "offset": "string"
+        }
+      },
+      "tutors": [
+        {
+          "id": 0,
+          "firstname": "string",
+          "lastname": "string",
+          "title": "string",
+          "gender": "string",
+          "language": "string",
+          "mail": "string",
+          "client": 0,
+          "designName": "string",
+          "link": {
+            "rel": "string",
+            "href": "string"
+          },
+          "assignedGroups": [
+            {
+              "id": 0,
+              "name": "string",
+              "type": "SYSTEM_GROUP",
+              "status": "ACTIVE",
+              "functions": [
+                "ADMINISTRATOR_GROUP"
+              ],
+              "abbreviation": "string",
+              "commentOnChange": "string",
+              "automaticUpdateMembers": false,
+              "managers": [
+                {}
+              ],
+              "recertification": false,
+              "provider": 0,
+              "clients": [
+                0
+              ],
+              "groups": [
+                0
+              ]
+            }
+          ],
+          "ojtMentor": false,
+          "ojtTrainee": false,
+          "complianceManager": false,
+          "company": "string",
+          "picture": "string",
+          "tutorRole": "string",
+          "remoteApiClientId": "string",
+          "publicServerUrl": "string",
+          "fullName": "string",
+          "supervisor": false,
+          "registrationDelegate": false,
+          "portfolioStatus": 0,
+          "userDefinedId": "string",
+          "timeZone": {
+            "id": 0,
+            "nameIdentifier": "string",
+            "offset": "string"
+          }
+        }
+      ],
+      "topics": [
+        {
+          "name": "string",
+          "id": "string",
+          "parentId": "string"
+        }
+      ],
+      "learningForm": "online learning",
+      "durationOfUse": "string",
+      "runningTime": "string",
+      "hours": "string",
+      "subtitle": "string",
+      "speakers": "string",
+      "partners": "string",
+      "timePerWeek": "string",
+      "level": "string",
+      "prerequisites": "string",
+      "courseFeatures": "string",
+      "template": false,
+      "allowConcludeMedia": false,
+      "courseVideo": {
+        "media": {
+          "id": 0,
+          "name": "string",
+          "description": "string",
+          "language": "string",
+          "modified": "string",
+          "creationDate": "string",
+          "appContent": false,
+          "mediaFileFormat": "string",
+          "metaTagList": [
+            {
+              "name": "string",
+              "content": "string",
+              "rawContent": "string",
+              "contentUTC": "2017-04-19T15:33:36.498Z",
+              "id": "string",
+              "metaDataCType": "UNKNOWN",
+              "multiLanguage": false,
+              "editableSetting": "EDIT_ALLOWED",
+              "multiLanguageContent": [
+                {
+                  "language": "string",
+                  "content": "string",
+                  "rawContent": "string"
+                }
+              ],
+              "visibilityType": "NOT_VISIBLE",
+              "visibilityTypeBeforeRegistration": "NOT_VISIBLE",
+              "visibilityTypeAfterRegistration": "NOT_VISIBLE"
+            }
+          ],
+          "infoAttribute": [
+            {
+              "name": "string",
+              "content": "string",
+              "id": "string"
+            }
+          ],
+          "contentType": "FAQ",
+          "typeId": 0,
+          "contentLanguages": {
+            "adminLanguage": "string",
+            "basicLanguage": "string",
+            "standardLanguage": "string",
+            "contentLanguage": [
+              {
+                "code": "string",
+                "name": "string",
+                "status": 0
+              }
+            ]
+          },
+          "version": "string",
+          "link": {
+            "rel": "string",
+            "href": "string"
+          },
+          "experienceGains": [
+            {
+              "id": 0,
+              "name": "string",
+              "image": "string",
+              "possibleExperienceGain": 0
+            }
+          ],
+          "contentSource": "INTERNAL",
+          "startDate": "string",
+          "startDateUTC": "2017-04-19T15:33:36.506Z",
+          "endDate": "string",
+          "endDateUTC": "2017-04-19T15:33:36.506Z",
+          "location": "string",
+          "mediaFileLink": "string",
+          "mediaFileName": "string",
+          "fileSize": 0,
+          "mediaFileLinkHD": "string",
+          "mediaFileNameHD": "string",
+          "fileSizeHD": 0,
+          "mediaFileFormatHD": "string",
+          "source": "string",
+          "sourceHD": "string",
+          "controlTags": [
+            "SHOWITEMNUMBER"
+          ],
+          "mobileCompatible": false,
+          "score": 0,
+          "ratio": 0,
+          "duration": 0,
+          "alertTime": 0,
+          "scormWbtId": 0,
+          "runningTime": "string",
+          "imageSource": "string",
+          "imageFile": "string",
+          "startFile": "string",
+          "scormVersion": "SCORM_1_2",
+          "scormSubversion": "SCORM_1_2",
+          "retainScorm2004RuntimeData": false,
+          "file": "string",
+          "policyTitle": "string",
+          "policyText": "string",
+          "welcomeText": "string",
+          "educationalObjectives": "string",
+          "goodbyeText": "string",
+          "onBookShelf": false
+        },
+        "parentId": 0,
+        "enabled": false,
+        "status": "NULL",
+        "language": "string",
+        "link": {
+          "rel": "string",
+          "href": "string"
+        },
+        "answered": false,
+        "evaluatedScore": 0,
+        "evaluatedRatio": 0,
+        "evaluated": false,
+        "certificateAvailable": false,
+        "possibleAttempts": 0,
+        "usedAttempts": 0,
+        "ojtId": 0,
+        "courseSetItems": [
+          {
+            "id": 0,
+            "title": "string",
+            "registrationType": "NO_ORDERTYPE",
+            "supportedPayments": [
+              "PAYPAL_EXPRESS"
+            ],
+            "dateDependent": false,
+            "startDate": "2017-04-19T15:33:36.507Z",
+            "endDate": "2017-04-19T15:33:36.507Z",
+            "durationOfUse": "string",
+            "language": "string",
+            "status": "NULL",
+            "bookable": false,
+            "cancellable": false,
+            "finishable": false,
+            "certificateAvailable": false,
+            "dueDate": "2017-04-19T15:33:36.507Z",
+            "link": {
+              "rel": "string",
+              "href": "string"
+            },
+            "signatureRequired": false,
+            "preStartAccessibility": "string",
+            "postConclusionAccessibility": "string",
+            "metaTags": [
+              {
+                "name": "string",
+                "content": "string",
+                "rawContent": "string",
+                "contentUTC": "2017-04-19T15:33:36.508Z",
+                "id": "string",
+                "metaDataCType": "UNKNOWN",
+                "multiLanguage": false,
+                "editableSetting": "EDIT_ALLOWED",
+                "multiLanguageContent": [
+                  {
+                    "language": "string",
+                    "content": "string",
+                    "rawContent": "string"
+                  }
+                ],
+                "visibilityType": "NOT_VISIBLE",
+                "visibilityTypeBeforeRegistration": "NOT_VISIBLE",
+                "visibilityTypeAfterRegistration": "NOT_VISIBLE"
+              }
+            ]
+          }
+        ]
+      },
+      "supportedPayments": [
+        "PAYPAL_EXPRESS"
+      ],
+      "dueDate": "string",
+      "dueDateUTC": "2017-04-19T15:33:36.508Z",
+      "signatureRequired": false,
+      "forumCount": 0,
+      "syllabusCount": 0,
+      "libraryCount": 0,
+      "registrationIdentifier": "string",
+      "preStartAccessibility": "string",
+      "postConclusionAccessibility": "string",
+      "hidden": false,
+      "hasAvailableCourses": false,
+      "cancellationDateUTC": "2017-04-19T15:33:36.508Z",
+      "completionDateUTC": "2017-04-19T15:33:36.508Z",
+      "skills": [
+        {
+          "id": 0,
+          "name": "string",
+          "numberOfSkillLevels": 0,
+          "skillLevel": {
+            "id": 0,
+            "name": "string",
+            "selectedSkillLevel": 0
+          }
+        }
+      ],
+      "downloadAllContent": false
+    },
+    {
+      "id": 2,
+      "modified": "string",
+      "modifiedUTC": "2017-04-19T15:33:36.492Z",
+      "name": "Advanced User Experience (UX) Design",
+      "description": "Your BEST Source for Usability and User Experience (UX) Tools, Books and Research",
+      "metaTags": [
+        {
+          "name": "string",
+          "content": "string",
+          "rawContent": "string",
+          "contentUTC": "2017-04-19T15:33:36.492Z",
+          "id": "string",
+          "metaDataCType": "UNKNOWN",
+          "multiLanguage": false,
+          "editableSetting": "EDIT_ALLOWED",
+          "multiLanguageContent": [
+            {
+              "language": "string",
+              "content": "string",
+              "rawContent": "string"
+            }
+          ],
+          "visibilityType": "NOT_VISIBLE",
+          "visibilityTypeBeforeRegistration": "NOT_VISIBLE",
+          "visibilityTypeAfterRegistration": "NOT_VISIBLE"
+        }
+      ],
+      "infoAttribute": [
+        {
+          "name": "string",
+          "content": "string",
+          "id": "string"
+        }
+      ],
+      "contentLanguages": {
+        "adminLanguage": "string",
+        "basicLanguage": "string",
+        "standardLanguage": "string",
+        "contentLanguage": [
+          {
+            "code": "string",
+            "name": "string",
+            "status": 0
+          }
+        ]
+      },
+      "link": {
+        "rel": "string",
+        "href": "string"
+      },
+      "experienceGains": [
+        {
+          "id": 0,
+          "name": "string",
+          "image": "string",
+          "possibleExperienceGain": 0
+        }
+      ],
+      "language": "string",
+      "startDateUTC": "2017-03-10T15:33:36.493Z",
+      "startDate": "string",
+      "endDate": "string",
+      "endDateUTC": "2017-10-12T12:00:00.493Z",
+      "bookable": false,
+      "status": "NULL",
+      "certificateAvailable": false,
+      "certificateOfAttendanceAvailable": false,
+      "certificateAccess": "USER_PASSES_OR_FAILS",
+      "freePlaces": 0,
+      "freePlacesVisible": false,
+      "cancellable": false,
+      "cancellationType": 0,
+      "planningStatus": "RELEASED",
+      "registrationPrerequisites": [
+        {
+          "name": "string",
+          "id": "string",
+          "parentSetName": "string",
+          "mandatory": false,
+          "fulfilled": false,
+          "prerequisiteType": "COURSE",
+          "position": 0
+        }
+      ],
+      "dateDependent": false,
+      "registrationType": "NO_ORDERTYPE",
+      "provider": "string",
+      "providerUrlImage": "string",
+      "progress": 30,
+      "templateId": 0,
+      "moocImage": "2.jpg",
+      "location": "string",
+      "finishable": false,
+      "administrator": {
+        "id": 0,
+        "firstname": "string",
+        "lastname": "string",
+        "title": "string",
+        "gender": "string",
+        "language": "string",
+        "mail": "string",
+        "client": 0,
+        "designName": "string",
+        "link": {
+          "rel": "string",
+          "href": "string"
+        },
+        "assignedGroups": [
+          {
+            "id": 0,
+            "name": "string",
+            "type": "SYSTEM_GROUP",
+            "status": "ACTIVE",
+            "functions": [
+              "ADMINISTRATOR_GROUP"
+            ],
+            "abbreviation": "string",
+            "commentOnChange": "string",
+            "automaticUpdateMembers": false,
+            "managers": [
+              {}
+            ],
+            "recertification": false,
+            "provider": 0,
+            "clients": [
+              0
+            ],
+            "groups": [
+              0
+            ]
+          }
+        ],
+        "ojtMentor": false,
+        "ojtTrainee": false,
+        "complianceManager": false,
+        "company": "string",
+        "picture": "string",
+        "tutorRole": "string",
+        "remoteApiClientId": "string",
+        "publicServerUrl": "string",
+        "fullName": "string",
+        "supervisor": false,
+        "registrationDelegate": false,
+        "portfolioStatus": 0,
+        "userDefinedId": "string",
+        "timeZone": {
+          "id": 0,
+          "nameIdentifier": "string",
+          "offset": "string"
+        }
+      },
+      "tutors": [
+        {
+          "id": 0,
+          "firstname": "string",
+          "lastname": "string",
+          "title": "string",
+          "gender": "string",
+          "language": "string",
+          "mail": "string",
+          "client": 0,
+          "designName": "string",
+          "link": {
+            "rel": "string",
+            "href": "string"
+          },
+          "assignedGroups": [
+            {
+              "id": 0,
+              "name": "string",
+              "type": "SYSTEM_GROUP",
+              "status": "ACTIVE",
+              "functions": [
+                "ADMINISTRATOR_GROUP"
+              ],
+              "abbreviation": "string",
+              "commentOnChange": "string",
+              "automaticUpdateMembers": false,
+              "managers": [
+                {}
+              ],
+              "recertification": false,
+              "provider": 0,
+              "clients": [
+                0
+              ],
+              "groups": [
+                0
+              ]
+            }
+          ],
+          "ojtMentor": false,
+          "ojtTrainee": false,
+          "complianceManager": false,
+          "company": "string",
+          "picture": "string",
+          "tutorRole": "string",
+          "remoteApiClientId": "string",
+          "publicServerUrl": "string",
+          "fullName": "string",
+          "supervisor": false,
+          "registrationDelegate": false,
+          "portfolioStatus": 0,
+          "userDefinedId": "string",
+          "timeZone": {
+            "id": 0,
+            "nameIdentifier": "string",
+            "offset": "string"
+          }
+        }
+      ],
+      "topics": [
+        {
+          "name": "string",
+          "id": "string",
+          "parentId": "string"
+        }
+      ],
+      "learningForm": "online learning",
+      "durationOfUse": "string",
+      "runningTime": "string",
+      "hours": "string",
+      "subtitle": "string",
+      "speakers": "string",
+      "partners": "string",
+      "timePerWeek": "string",
+      "level": "string",
+      "prerequisites": "string",
+      "courseFeatures": "string",
+      "template": false,
+      "allowConcludeMedia": false,
+      "courseVideo": {
+        "media": {
+          "id": 0,
+          "name": "string",
+          "description": "string",
+          "language": "string",
+          "modified": "string",
+          "creationDate": "string",
+          "appContent": false,
+          "mediaFileFormat": "string",
+          "metaTagList": [
+            {
+              "name": "string",
+              "content": "string",
+              "rawContent": "string",
+              "contentUTC": "2017-04-19T15:33:36.498Z",
+              "id": "string",
+              "metaDataCType": "UNKNOWN",
+              "multiLanguage": false,
+              "editableSetting": "EDIT_ALLOWED",
+              "multiLanguageContent": [
+                {
+                  "language": "string",
+                  "content": "string",
+                  "rawContent": "string"
+                }
+              ],
+              "visibilityType": "NOT_VISIBLE",
+              "visibilityTypeBeforeRegistration": "NOT_VISIBLE",
+              "visibilityTypeAfterRegistration": "NOT_VISIBLE"
+            }
+          ],
+          "infoAttribute": [
+            {
+              "name": "string",
+              "content": "string",
+              "id": "string"
+            }
+          ],
+          "contentType": "FAQ",
+          "typeId": 0,
+          "contentLanguages": {
+            "adminLanguage": "string",
+            "basicLanguage": "string",
+            "standardLanguage": "string",
+            "contentLanguage": [
+              {
+                "code": "string",
+                "name": "string",
+                "status": 0
+              }
+            ]
+          },
+          "version": "string",
+          "link": {
+            "rel": "string",
+            "href": "string"
+          },
+          "experienceGains": [
+            {
+              "id": 0,
+              "name": "string",
+              "image": "string",
+              "possibleExperienceGain": 0
+            }
+          ],
+          "contentSource": "INTERNAL",
+          "startDate": "string",
+          "startDateUTC": "2017-04-19T15:33:36.506Z",
+          "endDate": "string",
+          "endDateUTC": "2017-04-19T15:33:36.506Z",
+          "location": "string",
+          "mediaFileLink": "string",
+          "mediaFileName": "string",
+          "fileSize": 0,
+          "mediaFileLinkHD": "string",
+          "mediaFileNameHD": "string",
+          "fileSizeHD": 0,
+          "mediaFileFormatHD": "string",
+          "source": "string",
+          "sourceHD": "string",
+          "controlTags": [
+            "SHOWITEMNUMBER"
+          ],
+          "mobileCompatible": false,
+          "score": 0,
+          "ratio": 0,
+          "duration": 0,
+          "alertTime": 0,
+          "scormWbtId": 0,
+          "runningTime": "string",
+          "imageSource": "string",
+          "imageFile": "string",
+          "startFile": "string",
+          "scormVersion": "SCORM_1_2",
+          "scormSubversion": "SCORM_1_2",
+          "retainScorm2004RuntimeData": false,
+          "file": "string",
+          "policyTitle": "string",
+          "policyText": "string",
+          "welcomeText": "string",
+          "educationalObjectives": "string",
+          "goodbyeText": "string",
+          "onBookShelf": false
+        },
+        "parentId": 0,
+        "enabled": false,
+        "status": "NULL",
+        "language": "string",
+        "link": {
+          "rel": "string",
+          "href": "string"
+        },
+        "answered": false,
+        "evaluatedScore": 0,
+        "evaluatedRatio": 0,
+        "evaluated": false,
+        "certificateAvailable": false,
+        "possibleAttempts": 0,
+        "usedAttempts": 0,
+        "ojtId": 0,
+        "courseSetItems": [
+          {
+            "id": 0,
+            "title": "string",
+            "registrationType": "NO_ORDERTYPE",
+            "supportedPayments": [
+              "PAYPAL_EXPRESS"
+            ],
+            "dateDependent": false,
+            "startDate": "2017-04-19T15:33:36.507Z",
+            "endDate": "2017-04-19T15:33:36.507Z",
+            "durationOfUse": "string",
+            "language": "string",
+            "status": "NULL",
+            "bookable": false,
+            "cancellable": false,
+            "finishable": false,
+            "certificateAvailable": false,
+            "dueDate": "2017-04-19T15:33:36.507Z",
+            "link": {
+              "rel": "string",
+              "href": "string"
+            },
+            "signatureRequired": false,
+            "preStartAccessibility": "string",
+            "postConclusionAccessibility": "string",
+            "metaTags": [
+              {
+                "name": "string",
+                "content": "string",
+                "rawContent": "string",
+                "contentUTC": "2017-04-19T15:33:36.508Z",
+                "id": "string",
+                "metaDataCType": "UNKNOWN",
+                "multiLanguage": false,
+                "editableSetting": "EDIT_ALLOWED",
+                "multiLanguageContent": [
+                  {
+                    "language": "string",
+                    "content": "string",
+                    "rawContent": "string"
+                  }
+                ],
+                "visibilityType": "NOT_VISIBLE",
+                "visibilityTypeBeforeRegistration": "NOT_VISIBLE",
+                "visibilityTypeAfterRegistration": "NOT_VISIBLE"
+              }
+            ]
+          }
+        ]
+      },
+      "supportedPayments": [
+        "PAYPAL_EXPRESS"
+      ],
+      "dueDate": "string",
+      "dueDateUTC": "2017-04-19T15:33:36.508Z",
+      "signatureRequired": false,
+      "forumCount": 0,
+      "syllabusCount": 0,
+      "libraryCount": 0,
+      "registrationIdentifier": "string",
+      "preStartAccessibility": "string",
+      "postConclusionAccessibility": "string",
+      "hidden": false,
+      "hasAvailableCourses": false,
+      "cancellationDateUTC": "2017-04-19T15:33:36.508Z",
+      "completionDateUTC": "2017-04-19T15:33:36.508Z",
+      "skills": [
+        {
+          "id": 0,
+          "name": "string",
+          "numberOfSkillLevels": 0,
+          "skillLevel": {
+            "id": 0,
+            "name": "string",
+            "selectedSkillLevel": 0
+          }
+        }
+      ],
+      "downloadAllContent": false
+    },
+    {
+      "id": 3,
+      "modified": "string",
+      "modifiedUTC": "2017-04-19T15:33:36.492Z",
+      "name": "User Experience Design: Complete UX Fundamentals Course",
+      "description": "Understand User Experience Design ( UX ) to begin designing web and mobile apps to keep your users engaged and happy.",
+      "metaTags": [
+        {
+          "name": "string",
+          "content": "string",
+          "rawContent": "string",
+          "contentUTC": "2017-04-19T15:33:36.492Z",
+          "id": "string",
+          "metaDataCType": "UNKNOWN",
+          "multiLanguage": false,
+          "editableSetting": "EDIT_ALLOWED",
+          "multiLanguageContent": [
+            {
+              "language": "string",
+              "content": "string",
+              "rawContent": "string"
+            }
+          ],
+          "visibilityType": "NOT_VISIBLE",
+          "visibilityTypeBeforeRegistration": "NOT_VISIBLE",
+          "visibilityTypeAfterRegistration": "NOT_VISIBLE"
+        }
+      ],
+      "infoAttribute": [
+        {
+          "name": "string",
+          "content": "string",
+          "id": "string"
+        }
+      ],
+      "contentLanguages": {
+        "adminLanguage": "string",
+        "basicLanguage": "string",
+        "standardLanguage": "string",
+        "contentLanguage": [
+          {
+            "code": "string",
+            "name": "string",
+            "status": 0
+          }
+        ]
+      },
+      "link": {
+        "rel": "string",
+        "href": "string"
+      },
+      "experienceGains": [
+        {
+          "id": 0,
+          "name": "string",
+          "image": "string",
+          "possibleExperienceGain": 0
+        }
+      ],
+      "language": "string",
+      "startDateUTC": "2017-02-10T15:33:36.493Z",
+      "startDate": "string",
+      "endDate": "string",
+      "endDateUTC": "2017-09-30T15:33:36.493Z",
+      "bookable": false,
+      "status": "NULL",
+      "certificateAvailable": false,
+      "certificateOfAttendanceAvailable": false,
+      "certificateAccess": "USER_PASSES_OR_FAILS",
+      "freePlaces": 0,
+      "freePlacesVisible": false,
+      "cancellable": false,
+      "cancellationType": 0,
+      "planningStatus": "RELEASED",
+      "registrationPrerequisites": [
+        {
+          "name": "string",
+          "id": "string",
+          "parentSetName": "string",
+          "mandatory": false,
+          "fulfilled": false,
+          "prerequisiteType": "COURSE",
+          "position": 0
+        }
+      ],
+      "dateDependent": false,
+      "registrationType": "NO_ORDERTYPE",
+      "provider": "string",
+      "providerUrlImage": "string",
+      "progress": 0,
+      "templateId": 0,
+      "moocImage": "3.jpg",
+      "location": "string",
+      "finishable": false,
+      "administrator": {
+        "id": 0,
+        "firstname": "string",
+        "lastname": "string",
+        "title": "string",
+        "gender": "string",
+        "language": "string",
+        "mail": "string",
+        "client": 0,
+        "designName": "string",
+        "link": {
+          "rel": "string",
+          "href": "string"
+        },
+        "assignedGroups": [
+          {
+            "id": 0,
+            "name": "string",
+            "type": "SYSTEM_GROUP",
+            "status": "ACTIVE",
+            "functions": [
+              "ADMINISTRATOR_GROUP"
+            ],
+            "abbreviation": "string",
+            "commentOnChange": "string",
+            "automaticUpdateMembers": false,
+            "managers": [
+              {}
+            ],
+            "recertification": false,
+            "provider": 0,
+            "clients": [
+              0
+            ],
+            "groups": [
+              0
+            ]
+          }
+        ],
+        "ojtMentor": false,
+        "ojtTrainee": false,
+        "complianceManager": false,
+        "company": "string",
+        "picture": "string",
+        "tutorRole": "string",
+        "remoteApiClientId": "string",
+        "publicServerUrl": "string",
+        "fullName": "string",
+        "supervisor": false,
+        "registrationDelegate": false,
+        "portfolioStatus": 0,
+        "userDefinedId": "string",
+        "timeZone": {
+          "id": 0,
+          "nameIdentifier": "string",
+          "offset": "string"
+        }
+      },
+      "tutors": [
+        {
+          "id": 0,
+          "firstname": "string",
+          "lastname": "string",
+          "title": "string",
+          "gender": "string",
+          "language": "string",
+          "mail": "string",
+          "client": 0,
+          "designName": "string",
+          "link": {
+            "rel": "string",
+            "href": "string"
+          },
+          "assignedGroups": [
+            {
+              "id": 0,
+              "name": "string",
+              "type": "SYSTEM_GROUP",
+              "status": "ACTIVE",
+              "functions": [
+                "ADMINISTRATOR_GROUP"
+              ],
+              "abbreviation": "string",
+              "commentOnChange": "string",
+              "automaticUpdateMembers": false,
+              "managers": [
+                {}
+              ],
+              "recertification": false,
+              "provider": 0,
+              "clients": [
+                0
+              ],
+              "groups": [
+                0
+              ]
+            }
+          ],
+          "ojtMentor": false,
+          "ojtTrainee": false,
+          "complianceManager": false,
+          "company": "string",
+          "picture": "string",
+          "tutorRole": "string",
+          "remoteApiClientId": "string",
+          "publicServerUrl": "string",
+          "fullName": "string",
+          "supervisor": false,
+          "registrationDelegate": false,
+          "portfolioStatus": 0,
+          "userDefinedId": "string",
+          "timeZone": {
+            "id": 0,
+            "nameIdentifier": "string",
+            "offset": "string"
+          }
+        }
+      ],
+      "topics": [
+        {
+          "name": "string",
+          "id": "string",
+          "parentId": "string"
+        }
+      ],
+      "learningForm": "classroom course",
+      "durationOfUse": "string",
+      "runningTime": "string",
+      "hours": "string",
+      "subtitle": "string",
+      "speakers": "string",
+      "partners": "string",
+      "timePerWeek": "string",
+      "level": "string",
+      "prerequisites": "string",
+      "courseFeatures": "string",
+      "template": false,
+      "allowConcludeMedia": false,
+      "courseVideo": {
+        "media": {
+          "id": 0,
+          "name": "string",
+          "description": "string",
+          "language": "string",
+          "modified": "string",
+          "creationDate": "string",
+          "appContent": false,
+          "mediaFileFormat": "string",
+          "metaTagList": [
+            {
+              "name": "string",
+              "content": "string",
+              "rawContent": "string",
+              "contentUTC": "2017-04-19T15:33:36.498Z",
+              "id": "string",
+              "metaDataCType": "UNKNOWN",
+              "multiLanguage": false,
+              "editableSetting": "EDIT_ALLOWED",
+              "multiLanguageContent": [
+                {
+                  "language": "string",
+                  "content": "string",
+                  "rawContent": "string"
+                }
+              ],
+              "visibilityType": "NOT_VISIBLE",
+              "visibilityTypeBeforeRegistration": "NOT_VISIBLE",
+              "visibilityTypeAfterRegistration": "NOT_VISIBLE"
+            }
+          ],
+          "infoAttribute": [
+            {
+              "name": "string",
+              "content": "string",
+              "id": "string"
+            }
+          ],
+          "contentType": "FAQ",
+          "typeId": 0,
+          "contentLanguages": {
+            "adminLanguage": "string",
+            "basicLanguage": "string",
+            "standardLanguage": "string",
+            "contentLanguage": [
+              {
+                "code": "string",
+                "name": "string",
+                "status": 0
+              }
+            ]
+          },
+          "version": "string",
+          "link": {
+            "rel": "string",
+            "href": "string"
+          },
+          "experienceGains": [
+            {
+              "id": 0,
+              "name": "string",
+              "image": "string",
+              "possibleExperienceGain": 0
+            }
+          ],
+          "contentSource": "INTERNAL",
+          "startDate": "string",
+          "startDateUTC": "2017-04-19T15:33:36.506Z",
+          "endDate": "string",
+          "endDateUTC": "2017-04-19T15:33:36.506Z",
+          "location": "string",
+          "mediaFileLink": "string",
+          "mediaFileName": "string",
+          "fileSize": 0,
+          "mediaFileLinkHD": "string",
+          "mediaFileNameHD": "string",
+          "fileSizeHD": 0,
+          "mediaFileFormatHD": "string",
+          "source": "string",
+          "sourceHD": "string",
+          "controlTags": [
+            "SHOWITEMNUMBER"
+          ],
+          "mobileCompatible": false,
+          "score": 0,
+          "ratio": 0,
+          "duration": 0,
+          "alertTime": 0,
+          "scormWbtId": 0,
+          "runningTime": "string",
+          "imageSource": "string",
+          "imageFile": "string",
+          "startFile": "string",
+          "scormVersion": "SCORM_1_2",
+          "scormSubversion": "SCORM_1_2",
+          "retainScorm2004RuntimeData": false,
+          "file": "string",
+          "policyTitle": "string",
+          "policyText": "string",
+          "welcomeText": "string",
+          "educationalObjectives": "string",
+          "goodbyeText": "string",
+          "onBookShelf": false
+        },
+        "parentId": 0,
+        "enabled": false,
+        "status": "NULL",
+        "language": "string",
+        "link": {
+          "rel": "string",
+          "href": "string"
+        },
+        "answered": false,
+        "evaluatedScore": 0,
+        "evaluatedRatio": 0,
+        "evaluated": false,
+        "certificateAvailable": false,
+        "possibleAttempts": 0,
+        "usedAttempts": 0,
+        "ojtId": 0,
+        "courseSetItems": [
+          {
+            "id": 0,
+            "title": "string",
+            "registrationType": "NO_ORDERTYPE",
+            "supportedPayments": [
+              "PAYPAL_EXPRESS"
+            ],
+            "dateDependent": false,
+            "startDate": "2017-04-19T15:33:36.507Z",
+            "endDate": "2017-04-19T15:33:36.507Z",
+            "durationOfUse": "string",
+            "language": "string",
+            "status": "NULL",
+            "bookable": false,
+            "cancellable": false,
+            "finishable": false,
+            "certificateAvailable": false,
+            "dueDate": "2017-04-19T15:33:36.507Z",
+            "link": {
+              "rel": "string",
+              "href": "string"
+            },
+            "signatureRequired": false,
+            "preStartAccessibility": "string",
+            "postConclusionAccessibility": "string",
+            "metaTags": [
+              {
+                "name": "string",
+                "content": "string",
+                "rawContent": "string",
+                "contentUTC": "2017-04-19T15:33:36.508Z",
+                "id": "string",
+                "metaDataCType": "UNKNOWN",
+                "multiLanguage": false,
+                "editableSetting": "EDIT_ALLOWED",
+                "multiLanguageContent": [
+                  {
+                    "language": "string",
+                    "content": "string",
+                    "rawContent": "string"
+                  }
+                ],
+                "visibilityType": "NOT_VISIBLE",
+                "visibilityTypeBeforeRegistration": "NOT_VISIBLE",
+                "visibilityTypeAfterRegistration": "NOT_VISIBLE"
+              }
+            ]
+          }
+        ]
+      },
+      "supportedPayments": [
+        "PAYPAL_EXPRESS"
+      ],
+      "dueDate": "string",
+      "dueDateUTC": "2017-04-19T15:33:36.508Z",
+      "signatureRequired": false,
+      "forumCount": 0,
+      "syllabusCount": 0,
+      "libraryCount": 0,
+      "registrationIdentifier": "string",
+      "preStartAccessibility": "string",
+      "postConclusionAccessibility": "string",
+      "hidden": false,
+      "hasAvailableCourses": false,
+      "cancellationDateUTC": "2017-04-19T15:33:36.508Z",
+      "completionDateUTC": "2017-04-19T15:33:36.508Z",
+      "skills": [
+        {
+          "id": 0,
+          "name": "string",
+          "numberOfSkillLevels": 0,
+          "skillLevel": {
+            "id": 0,
+            "name": "string",
+            "selectedSkillLevel": 0
+          }
+        }
+      ],
+      "downloadAllContent": false
+    },
+    {
+      "id": 4,
+      "modified": "string",
+      "modifiedUTC": "2017-04-19T15:33:36.492Z",
+      "name": "UX & Web Design Master Course: Strategy, Design, Development",
+      "description": "Learn how to apply User Experience (UX) principles to your website designs, code a variety of sites, and increase sales!",
+      "metaTags": [
+        {
+          "name": "string",
+          "content": "string",
+          "rawContent": "string",
+          "contentUTC": "2017-04-19T15:33:36.492Z",
+          "id": "string",
+          "metaDataCType": "UNKNOWN",
+          "multiLanguage": false,
+          "editableSetting": "EDIT_ALLOWED",
+          "multiLanguageContent": [
+            {
+              "language": "string",
+              "content": "string",
+              "rawContent": "string"
+            }
+          ],
+          "visibilityType": "NOT_VISIBLE",
+          "visibilityTypeBeforeRegistration": "NOT_VISIBLE",
+          "visibilityTypeAfterRegistration": "NOT_VISIBLE"
+        }
+      ],
+      "infoAttribute": [
+        {
+          "name": "string",
+          "content": "string",
+          "id": "string"
+        }
+      ],
+      "contentLanguages": {
+        "adminLanguage": "string",
+        "basicLanguage": "string",
+        "standardLanguage": "string",
+        "contentLanguage": [
+          {
+            "code": "string",
+            "name": "string",
+            "status": 0
+          }
+        ]
+      },
+      "link": {
+        "rel": "string",
+        "href": "string"
+      },
+      "experienceGains": [
+        {
+          "id": 0,
+          "name": "string",
+          "image": "string",
+          "possibleExperienceGain": 0
+        }
+      ],
+      "language": "string",
+      "startDateUTC": "2017-06-10T15:33:36.493Z",
+      "startDate": "string",
+      "endDate": "string",
+      "endDateUTC": "2017-08-30T15:33:36.493Z",
+      "bookable": false,
+      "status": "NULL",
+      "certificateAvailable": false,
+      "certificateOfAttendanceAvailable": false,
+      "certificateAccess": "USER_PASSES_OR_FAILS",
+      "freePlaces": 0,
+      "freePlacesVisible": false,
+      "cancellable": false,
+      "cancellationType": 0,
+      "planningStatus": "RELEASED",
+      "registrationPrerequisites": [
+        {
+          "name": "string",
+          "id": "string",
+          "parentSetName": "string",
+          "mandatory": false,
+          "fulfilled": false,
+          "prerequisiteType": "COURSE",
+          "position": 0
+        }
+      ],
+      "dateDependent": false,
+      "registrationType": "NO_ORDERTYPE",
+      "provider": "string",
+      "providerUrlImage": "string",
+      "progress": 0,
+      "templateId": 0,
+      "moocImage": "4.jpg",
+      "location": "Sibiu, Romania",
+      "finishable": false,
+      "administrator": {
+        "id": 0,
+        "firstname": "string",
+        "lastname": "string",
+        "title": "string",
+        "gender": "string",
+        "language": "string",
+        "mail": "string",
+        "client": 0,
+        "designName": "string",
+        "link": {
+          "rel": "string",
+          "href": "string"
+        },
+        "assignedGroups": [
+          {
+            "id": 0,
+            "name": "string",
+            "type": "SYSTEM_GROUP",
+            "status": "ACTIVE",
+            "functions": [
+              "ADMINISTRATOR_GROUP"
+            ],
+            "abbreviation": "string",
+            "commentOnChange": "string",
+            "automaticUpdateMembers": false,
+            "managers": [
+              {}
+            ],
+            "recertification": false,
+            "provider": 0,
+            "clients": [
+              0
+            ],
+            "groups": [
+              0
+            ]
+          }
+        ],
+        "ojtMentor": false,
+        "ojtTrainee": false,
+        "complianceManager": false,
+        "company": "string",
+        "picture": "string",
+        "tutorRole": "string",
+        "remoteApiClientId": "string",
+        "publicServerUrl": "string",
+        "fullName": "string",
+        "supervisor": false,
+        "registrationDelegate": false,
+        "portfolioStatus": 0,
+        "userDefinedId": "string",
+        "timeZone": {
+          "id": 0,
+          "nameIdentifier": "string",
+          "offset": "string"
+        }
+      },
+      "tutors": [
+        {
+          "id": 0,
+          "firstname": "string",
+          "lastname": "string",
+          "title": "string",
+          "gender": "string",
+          "language": "string",
+          "mail": "string",
+          "client": 0,
+          "designName": "string",
+          "link": {
+            "rel": "string",
+            "href": "string"
+          },
+          "assignedGroups": [
+            {
+              "id": 0,
+              "name": "string",
+              "type": "SYSTEM_GROUP",
+              "status": "ACTIVE",
+              "functions": [
+                "ADMINISTRATOR_GROUP"
+              ],
+              "abbreviation": "string",
+              "commentOnChange": "string",
+              "automaticUpdateMembers": false,
+              "managers": [
+                {}
+              ],
+              "recertification": false,
+              "provider": 0,
+              "clients": [
+                0
+              ],
+              "groups": [
+                0
+              ]
+            }
+          ],
+          "ojtMentor": false,
+          "ojtTrainee": false,
+          "complianceManager": false,
+          "company": "string",
+          "picture": "string",
+          "tutorRole": "string",
+          "remoteApiClientId": "string",
+          "publicServerUrl": "string",
+          "fullName": "string",
+          "supervisor": false,
+          "registrationDelegate": false,
+          "portfolioStatus": 0,
+          "userDefinedId": "string",
+          "timeZone": {
+            "id": 0,
+            "nameIdentifier": "string",
+            "offset": "string"
+          }
+        }
+      ],
+      "topics": [
+        {
+          "name": "string",
+          "id": "string",
+          "parentId": "string"
+        }
+      ],
+      "learningForm": "online learning",
+      "durationOfUse": "string",
+      "runningTime": "string",
+      "hours": "string",
+      "subtitle": "string",
+      "speakers": "string",
+      "partners": "string",
+      "timePerWeek": "string",
+      "level": "string",
+      "prerequisites": "string",
+      "courseFeatures": "string",
+      "template": false,
+      "allowConcludeMedia": false,
+      "courseVideo": {
+        "media": {
+          "id": 0,
+          "name": "string",
+          "description": "string",
+          "language": "string",
+          "modified": "string",
+          "creationDate": "string",
+          "appContent": false,
+          "mediaFileFormat": "string",
+          "metaTagList": [
+            {
+              "name": "string",
+              "content": "string",
+              "rawContent": "string",
+              "contentUTC": "2017-04-19T15:33:36.498Z",
+              "id": "string",
+              "metaDataCType": "UNKNOWN",
+              "multiLanguage": false,
+              "editableSetting": "EDIT_ALLOWED",
+              "multiLanguageContent": [
+                {
+                  "language": "string",
+                  "content": "string",
+                  "rawContent": "string"
+                }
+              ],
+              "visibilityType": "NOT_VISIBLE",
+              "visibilityTypeBeforeRegistration": "NOT_VISIBLE",
+              "visibilityTypeAfterRegistration": "NOT_VISIBLE"
+            }
+          ],
+          "infoAttribute": [
+            {
+              "name": "string",
+              "content": "string",
+              "id": "string"
+            }
+          ],
+          "contentType": "FAQ",
+          "typeId": 0,
+          "contentLanguages": {
+            "adminLanguage": "string",
+            "basicLanguage": "string",
+            "standardLanguage": "string",
+            "contentLanguage": [
+              {
+                "code": "string",
+                "name": "string",
+                "status": 0
+              }
+            ]
+          },
+          "version": "string",
+          "link": {
+            "rel": "string",
+            "href": "string"
+          },
+          "experienceGains": [
+            {
+              "id": 0,
+              "name": "string",
+              "image": "string",
+              "possibleExperienceGain": 0
+            }
+          ],
+          "contentSource": "INTERNAL",
+          "startDate": "string",
+          "startDateUTC": "2017-04-19T15:33:36.506Z",
+          "endDate": "string",
+          "endDateUTC": "2017-04-19T15:33:36.506Z",
+          "location": "string",
+          "mediaFileLink": "string",
+          "mediaFileName": "string",
+          "fileSize": 0,
+          "mediaFileLinkHD": "string",
+          "mediaFileNameHD": "string",
+          "fileSizeHD": 0,
+          "mediaFileFormatHD": "string",
+          "source": "string",
+          "sourceHD": "string",
+          "controlTags": [
+            "SHOWITEMNUMBER"
+          ],
+          "mobileCompatible": false,
+          "score": 0,
+          "ratio": 0,
+          "duration": 0,
+          "alertTime": 0,
+          "scormWbtId": 0,
+          "runningTime": "string",
+          "imageSource": "string",
+          "imageFile": "string",
+          "startFile": "string",
+          "scormVersion": "SCORM_1_2",
+          "scormSubversion": "SCORM_1_2",
+          "retainScorm2004RuntimeData": false,
+          "file": "string",
+          "policyTitle": "string",
+          "policyText": "string",
+          "welcomeText": "string",
+          "educationalObjectives": "string",
+          "goodbyeText": "string",
+          "onBookShelf": false
+        },
+        "parentId": 0,
+        "enabled": false,
+        "status": "NULL",
+        "language": "string",
+        "link": {
+          "rel": "string",
+          "href": "string"
+        },
+        "answered": false,
+        "evaluatedScore": 0,
+        "evaluatedRatio": 0,
+        "evaluated": false,
+        "certificateAvailable": false,
+        "possibleAttempts": 0,
+        "usedAttempts": 0,
+        "ojtId": 0,
+        "courseSetItems": [
+          {
+            "id": 0,
+            "title": "string",
+            "registrationType": "NO_ORDERTYPE",
+            "supportedPayments": [
+              "PAYPAL_EXPRESS"
+            ],
+            "dateDependent": false,
+            "startDate": "2017-04-19T15:33:36.507Z",
+            "endDate": "2017-04-19T15:33:36.507Z",
+            "durationOfUse": "string",
+            "language": "string",
+            "status": "NULL",
+            "bookable": false,
+            "cancellable": false,
+            "finishable": false,
+            "certificateAvailable": false,
+            "dueDate": "2017-04-19T15:33:36.507Z",
+            "link": {
+              "rel": "string",
+              "href": "string"
+            },
+            "signatureRequired": false,
+            "preStartAccessibility": "string",
+            "postConclusionAccessibility": "string",
+            "metaTags": [
+              {
+                "name": "string",
+                "content": "string",
+                "rawContent": "string",
+                "contentUTC": "2017-04-19T15:33:36.508Z",
+                "id": "string",
+                "metaDataCType": "UNKNOWN",
+                "multiLanguage": false,
+                "editableSetting": "EDIT_ALLOWED",
+                "multiLanguageContent": [
+                  {
+                    "language": "string",
+                    "content": "string",
+                    "rawContent": "string"
+                  }
+                ],
+                "visibilityType": "NOT_VISIBLE",
+                "visibilityTypeBeforeRegistration": "NOT_VISIBLE",
+                "visibilityTypeAfterRegistration": "NOT_VISIBLE"
+              }
+            ]
+          }
+        ]
+      },
+      "supportedPayments": [
+        "PAYPAL_EXPRESS"
+      ],
+      "dueDate": "string",
+      "dueDateUTC": "2017-04-19T15:33:36.508Z",
+      "signatureRequired": false,
+      "forumCount": 0,
+      "syllabusCount": 0,
+      "libraryCount": 0,
+      "registrationIdentifier": "string",
+      "preStartAccessibility": "string",
+      "postConclusionAccessibility": "string",
+      "hidden": false,
+      "hasAvailableCourses": false,
+      "cancellationDateUTC": "2017-04-19T15:33:36.508Z",
+      "completionDateUTC": "2017-04-19T15:33:36.508Z",
+      "skills": [
+        {
+          "id": 0,
+          "name": "string",
+          "numberOfSkillLevels": 0,
+          "skillLevel": {
+            "id": 0,
+            "name": "string",
+            "selectedSkillLevel": 0
+          }
+        }
+      ],
+      "downloadAllContent": false
     }
   ]
 }

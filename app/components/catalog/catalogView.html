@@ -11,7 +11,7 @@
     <div class="row">
         <h1>Your source of knowledge</h1>
         <div class="search">
-            <input type="text" placeholder="Search" onkeypress="scrollToItem('tile-list',50)" autofocus>
+            <input type="text" placeholder="Search" onkeypress="scrollToItem('tile-list',50,event)" ng-model='searchText' autofocus>
             <a href="" class="fa fa-search"></a>
         </div>
         <div class="search-counter">

@@ -6,7 +6,7 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
     path = require('path');
 
-console.log('\x1b[44m', '\x1b[37m', '\x1b[1m', ' Listening on port 4000 ', '\x1b[0m');
+console.log('\x1b[44m', '\x1b[37m', '\x1b[1m', ' Listening on port 3000 ', '\x1b[0m');
 
 var tinylr;
 gulp.task('livereload', function () {

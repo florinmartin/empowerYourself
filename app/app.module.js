@@ -18,7 +18,12 @@ empowerYourself
             link: function (scope, element, attrs) {
                 element.on('mouseenter mouseleave', function () {
                     //console.log("das")
-                    element.children("ul").stop().animate({zoom: "toggle", opacity: "toggle"}, 200);
+                    if(element.hasClass('for-user')) {
+                        element.children("ul").stop().animate({zoom: "toggle", opacity: "toggle"}, 200);
+                    } else {
+                        element.children("ul").stop().animate({width: "toggle", height: "toggle", opacity: "toggle"}, 200);
+
+                    }
                 });
                 element.children("ul").children("label").on('click', function () {
                     //console.log("das")

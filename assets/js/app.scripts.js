@@ -1,10 +1,14 @@
 // add 'scrolled' class to navigation
 $(window).scroll(function() {
+
+	console.log($(document).scrollTop())
+
     if ($(document).scrollTop() > 1) {
         $('header').addClass('is-scrolled');
     } else {
         $('header').removeClass('is-scrolled');
     }
+
 });
 
 //$(document).foundation();
@@ -19,8 +23,11 @@ $(window).scroll(function() {
 //        window.scrollTo(0, item.offsetTop + 26)
 //    }
 //}
-function scrollToItem(item, offpos) {
-    $('html, body').animate({
-        scrollTop: $("#" + item + "").offset().top - offpos
-    }, 800);
+function scrollToItem(item, offpos, event) {
+	 if(event.which === 13) {
+	    $('html, body').animate({
+	        scrollTop: $("#" + item + "").offset().top - offpos
+	    }, 800);
+	    event.preventDefault();
+	}
 }
