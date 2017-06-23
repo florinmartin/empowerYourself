@@ -1,11 +1,9 @@
 empowerYourself
     .controller('catalog', ['$scope', '$rootScope', '$http', function ($scope, $rootScope, $http) {
 
-        // Mark the navigation entry for the catalog page
-        $rootScope.navigation[1].active = $rootScope.navigation[1].dropdown[0].active = true;
-
-        // Set view class
-        $rootScope.global.viewClass = "catalog";
+        $(".view").addClass("catalog");
+        $rootScope.authenticated = true;
+        $rootScope.getNavigation();
 
         // Get catalog list
         $http({method: 'GET', url: '/assets/json/lms.catalogs.json'}).then(function successCallback(response) {
@@ -49,6 +47,5 @@ empowerYourself
             }
             return status
         };
-
 
     }]);

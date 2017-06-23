@@ -45,6 +45,7 @@ header {
         text-decoration: none;
         color: $gray-5;
         list-style: none;
+        white-space: nowrap;
         &:hover {
           color: $blue;
           &:before {

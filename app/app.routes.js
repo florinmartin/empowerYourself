@@ -9,8 +9,12 @@ empowerYourself
                 scope: true,
                 controller: "catalog"
             })
+            .when("/account/:page", {
+                templateUrl: "app/components/account/accountView.html",
+                scope: true,
+                controller: "account"
+            })
             .otherwise({
-                templateUrl: "app/components/core/error/404.html",
-                controller: "error"
+                redirectTo: "/account/login"
             });
     });

@@ -1,7 +1,18 @@
 [
   {
     "title": "Home",
-    "link": "/index.html"
+    "link": "/index.html",
+    "privacy": "global"
+  },
+  {
+    "title": "Log in",
+    "link": "#/account/login",
+    "privacy": "public"
+  },
+  {
+    "title": "Sign up",
+    "link": "#/account/signup",
+    "privacy": "public"
   },
   {
     "title": "Learn",
@@ -19,7 +30,8 @@
         "title": "Progress",
         "link": "#/learn/my-learnings"
       }
-    ]
+    ],
+    "privacy": "private"
   },
   {
     "title": "Manage",
@@ -27,12 +39,13 @@
     "dropdown": [
       {
         "title": "Learnin management",
-        "link": "#/learn/catalog"
+        "link": "#/manage/catalog"
       },
       {
         "title": "Reports",
-        "link": "#/learn/my-learnings"
+        "link": "#/manage/my-learnings"
       }
-    ]
+    ],
+    "privacy": "private"
   }
 ]

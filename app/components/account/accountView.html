@@ -1,0 +1,84 @@
+<section ng-init="initAccount()">
+    <div class="row">
+        <form class="login" ng-submit="doLogin()" ng-if="type == 'login'">
+            <h1>Log In</h1>
+            <p class="login-error">Oops, that's not a match.</p>
+            <div class="login-field">
+                <label for="uername">User name</label>
+                <input type="text" id="username"  ng-model="username">
+            </div>
+            <div class="login-field">
+                <label for="password">Password</label>
+                <input type="{{showPassword?'text':'password'}}" id="password"  ng-model="password">
+                <div class="login-field-btn" ng-class="{isVisible: showPassword}" ng-click="showPassword = !showPassword">{{showPassword?'Hide':'Show'}}</div>
+            </div>
+            <div class="login-field">
+                <input type="checkbox" id="rememberme"  ng-model="login.rememberme">
+                <label for="rememberme">Stay logged in (<a>Security information</a>)</label>
+            </div>
+            <button class="login-btn" type="submit">Log In</button>
+            <div class="login-links">
+                <a href="#" class="login-link">Forgot password</a>
+                <a href="#/account/external" class="login-external" ng-click="type = 'external'">Use external log in</a>
+            </div>
+            <a href="#/account/signup" class="login-btn__signup">Don’t have an account? <span>Sign up</span></a>
+        </form>
+        <form class="signup" ng-submit="doSignup()" ng-if="type == 'signup'">
+            <h1>Sign Up</h1>
+            <p class="signup-error">Oops, that's not a match.</p>
+            <div class="signup-field">
+                <label for="uername">Title</label>
+                <input type="text" id="title"  ng-model="title">
+            </div>
+            <div class="signup-field">
+                <label for="uername">First name *</label>
+                <input type="text" id="firstname"  ng-model="firstname">
+            </div>
+            <div class="signup-field">
+                <label for="uername">Last name *</label>
+                <input type="text" id="lastname"  ng-model="lastname">
+            </div>
+            <div class="signup-field">
+                <label for="uername">E-mail *</label>
+                <input type="text" id="email"  ng-model="email">
+            </div>
+            <div class="signup-field">
+                <label for="password">Password</label>
+                <input type="{{showPassword?'text':'password'}}" id="password"  ng-model="password">
+                <div class="signup-field-btn" ng-class="{isVisible: showPassword}" ng-click="showPassword = !showPassword">{{showPassword?'Hide':'Show'}}</div>
+            </div>
+            <div class="signup-field">
+                <label for="uername">City</label>
+                <input type="text" id="city"  ng-model="city">
+            </div>
+            <div class="signup-field">
+                <label for="uername">Country</label>
+                <input type="text" id="country"  ng-model="country">
+            </div>
+            <div class="signup-row">
+                <button class="signup-btn" type="submit">Sign up</button>
+                <div class="signup-links">
+                    By clicking Sign Up you agree to our <a href="" class="signup-link">Terms of Use</a> and <a href="" class="signup-link">Code of Ethics</a>
+                </div>
+            </div>
+            <a href="#/account/login" class="signup-btn__signup">Do you have an account? <span>Log In</span></a>
+        </form>
+        <form class="login" ng-submit="doLogin()" ng-if="type == 'external'">
+            <h1>Log In</h1>
+            <a href="#/account/login" class="login-btn">Log in with external identity provider</a>
+        </form>
+        <div class="activation" ng-if="type == 'autorize'">
+            <h1>Account activation</h1>
+            <h2>Thanks for signing up</h2>
+            <p class="activation-message">To complete the registration process you must first confirm your account. An email has been sent to user.email@company.com.</p>
+            <p class="activation-message">To confirm and activate your account, please check your imbox and click on the link found in the email we just sent you.</p>
+            <hr>
+            <p class="activation-message">If you not get any email, then <a href="#/account/activated">request confirmation email</a> </p>
+        </div>
+        <div class="activation" ng-if="type == 'activated'">
+            <h1>Account activated</h1>
+            <p class="activation-message__success">Your account has been <span>successfully activated</span>. </p>
+            <a href="#/account/login" class="login-btn">Log In</a>
+        </div>
+    </div>
+</section>

@@ -37,8 +37,10 @@ empowerYourself
         return {
             restrict: 'A',
             link: function (rootScope, scope) {
+
                 rootScope.global = [];
                 rootScope.global.viewClass = '';
+                scope.authenticated = false;
                 rootScope.global.user = {
                     "uid": 1,
                     "first_name": "Maximilian",
@@ -47,14 +49,7 @@ empowerYourself
                 };
                 rootScope.global.user.navatar = rootScope.global.user.first_name.charAt(0).toUpperCase()
                     + rootScope.global.user.first_name.charAt(0).toUpperCase();
-                $http({
-                    method: 'GET',
-                    url: '/assets/json/main-navigation.json'
-                }).then(function successCallback(response) {
-                    rootScope.navigation = response.data;
-                }, function errorCallback(response) {
-                    console.log("REST API not available")
-                });
+                
             }
         };
     }]);

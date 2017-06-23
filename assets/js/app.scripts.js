@@ -1,13 +1,15 @@
 // add 'scrolled' class to navigation
 $(window).scroll(function() {
 
-	console.log($(document).scrollTop())
-
     if ($(document).scrollTop() > 1) {
         $('header').addClass('is-scrolled');
     } else {
         $('header').removeClass('is-scrolled');
     }
+
+});
+$(window).resize(function() {
+
 
 });
 

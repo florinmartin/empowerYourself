@@ -15,7 +15,7 @@
                     </li>
                 </ul>
             </li>
-            <li class="navigation__entry for-user has-dropdown" toggle-dropdown>
+            <li class="navigation__entry for-user has-dropdown" toggle-dropdown ng-if='$root.authenticated'>
                 <a href="">{{global.user.navatar}}</a>
                 <ul class="navigation__entry--dropdown">
                     <li class="navigation__entry--dropdown__user-details">
@@ -31,7 +31,7 @@
                     <li class="navigation__entry--dropdown__user-actions">
                         <a href=""><i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
                         <a href=""><i class="fa fa-cogs" aria-hidden="true"></i></a>
-                        <a href=""><i class="fa fa-sign-out" aria-hidden="true"></i></a>
+                        <a href="#/account/login"><i class="fa fa-sign-out" aria-hidden="true"></i></a>
                     </li>
 
                 </ul>

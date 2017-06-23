@@ -1,8 +1,10 @@
-
 body {
 	background: #f4f5f6;
 	font-family: 'Clear Sans','Open Sans', Arial, sans-serif;
 	font-size: 16px;
+	display: flex;
+    width: 100%;
+    flex-direction: column;
 }
 html,body,h1,h2,h3 {
 	font-family: 'Clear Sans','Open Sans', Arial, sans-serif;
@@ -19,4 +21,13 @@ html,body,h1,h2,h3 {
 
 a {color: inherit;
   &:hover {color: inherit;}
+}
+
+footer {
+	background: black;
+    height: 100px;
+    position: relative;
+    width: 100%;
+    color: white;
+    padding: 20px;
 }

@@ -41,7 +41,19 @@ gulp.task('sass', function () {
 });
 
 gulp.task('compress', function() {
-    return gulp.src('app/**/*.js')
+    return gulp.src([
+            'app/app.module.js',
+            'app/app.routes.js',
+            'app/components/account/*.js',
+            'app/components/core/header/*.js',
+            'app/components/core/footer/*.js',
+            'app/components/core/error/*.js',
+            'app/components/core/dialog/*.js',
+            'app/components/core/flyout/*.js',
+            'app/components/catalog/*.js',
+            'app/components/home/*.js',
+            'app/components/shared/**/*.js'
+        ])
         .pipe(concat('app.min.js'))
         .pipe(gulp.dest('assets/js'));
 });
