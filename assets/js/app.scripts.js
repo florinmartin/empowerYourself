@@ -29,7 +29,7 @@ function scrollToItem(item, offpos, event) {
 	 if(event.which === 13) {
 	    $('html, body').animate({
 	        scrollTop: $("#" + item + "").offset().top - offpos
-	    }, 800);
+	    }, 500);
 	    event.preventDefault();
 	}
 }

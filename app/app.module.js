@@ -15,7 +15,7 @@ empowerYourself
     .directive('toggleDropdown', function () {
         return {
             restrict: 'A',
-            link: function (scope, element, attrs) {
+            link: function (scope, element) {
                 element.on('mouseenter mouseleave', function () {
                     //console.log("das")
                     if(element.hasClass('for-user')) {
@@ -33,7 +33,7 @@ empowerYourself
             }
         };
     })
-    .directive('init', ['$http', function ($http) {
+    .directive('init', function () {
         return {
             restrict: 'A',
             link: function (rootScope, scope) {
@@ -49,7 +49,7 @@ empowerYourself
                 };
                 rootScope.global.user.navatar = rootScope.global.user.first_name.charAt(0).toUpperCase()
                     + rootScope.global.user.first_name.charAt(0).toUpperCase();
-                
+
             }
         };
-    }]);
+    });
